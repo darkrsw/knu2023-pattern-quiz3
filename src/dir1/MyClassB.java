@@ -1,4 +1,4 @@
-pakcage mypackage.dir1;
+package mypackage.dir1;
 
 public class B
 {
