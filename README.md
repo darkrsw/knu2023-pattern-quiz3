@@ -13,7 +13,8 @@ Your submission must satisfy the following requirements:
 * R9. The constructors should be considered.
 * R10. Assume that no methods (including constructors) are overloaded.
 * R11. "static" methods should be considered.
-* R12. The returned value of the above functions should include **ONLY** classes defined in the java files.
+* R12. Consider only (member, parameters, or local) variables whose type is obvious. Ignore variables with unknown types.
+* R13. The returned value of the above functions should include **ONLY** classes defined in the java files.
 
 ## Note:
 
