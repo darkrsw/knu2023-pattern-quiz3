@@ -9,7 +9,7 @@ Your submission must satisfy the following requirements:
 * R5. Check out `test_analyzer1.py` to figure out the output format.
 * R6. Assume that there are nested classes/methods and anonymous classes.
 * R7. Assume that there are nested directories in the input path.
-* R8. The function `collect_uninvoked_private(...)` takes a path of a directory containing multiple java source code files, and produces a map of classes. The keys of the map are classes and the values are a set of private methods that are never invoked in their own classes. If a class has no uninvoked methods, its value should empty set (`{}`).
+* R8. The function `collect_uninvoked_private(...)` takes a path of a directory containing multiple java source code files, and produces a map of classes. The keys of the map are classes and the values are a set of private methods that are never invoked in their own classes. If a class has no uninvoked methods, its value should empty set (`set()`).
 * R9. The constructors should be considered.
 * R10. Assume that no methods (including constructors) are overloaded.
 * R11. "static" methods should be considered.
