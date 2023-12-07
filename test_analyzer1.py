@@ -6,7 +6,7 @@ test_input_path = "./src/"
 def test_class_forest():
     expected = {
         "A": {"A"},
-        "B": {},
+        "B": set(),
         "C": {"func4"}
     }
 
