@@ -10,5 +10,5 @@ def test_class_forest():
         "C": {"func4"}
     }
 
-    result = collect_class_forest(test_input_path)
+    result = collect_uninvoked_private(test_input_path)
     assert expected == result
